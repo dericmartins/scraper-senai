@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Artefatos de execução (nunca commitar credenciais/sessão)
+.env
+session.json
+errors.log
+*.csv
+
+# Dados raspados (saída do scraper — não versionar)
+estrutura_*/
